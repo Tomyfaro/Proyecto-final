@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #454d66;
+}
+h1 {
+    color: #b0f4e6;
+    text-align: center;
+}
+.form-register {
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: #49beb7;
+    border-radius: 7px; 
+    margin-top: 50px;
+}
+h2 {
+    background: #ffe837;
+    color: #393e46;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-weight: 100px;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+}
+.registrar{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+}
+input {
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+div {
+    font-family: sans-serif;
+}
+.datos {
+    color: crimson;
+    padding: 10 0 px;
+    font-weight: 100px;
+    font-size: 25px;
+    margin: 0;
+}
+.contenedor-mascota {
+    background: #6384b3;
+    color: #393e46;
+    padding: 10px;
+    text-align: center;
+    font-weight: 100px;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    justify-content: space-between;
+}
+.btn-enviar {
+    background: crimson;
+    color: #fff;
+    font-weight: 100px;
+    width: 100%;
+    font-size: 20px;
+    margin: 10px auto ;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+option{
+    height: 150%;
+}
+.input48 {
+    width: 48%;
+}
+textarea{
+    width: 100%;
+}
+.contenedor-persona {
+    background: #6646d8;
+    color: #393e46;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    justify-content: space-between;
+}
+.form-register2 {
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: #49beb7;
+    border-radius: 7px; 
+    margin-top: 150px   ;
+}
