@@ -96,6 +96,7 @@ body{
 <div id="cont">
 <div class="footer_center">
      <h3> Copyright &copy; 2018
+     <?php include 'contador.php';?>
      </h3>
 </div>
 </div>
