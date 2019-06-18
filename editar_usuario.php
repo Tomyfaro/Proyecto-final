@@ -1,7 +1,7 @@
 <?php
     $id = $_GET["id"];#pedir informacion
 
-    $pdo = new PDO('mysql:host=localhost;dbname=dameunapata;charset=utf8mb4','root','');
+    $pdo = new PDO('mysql:host=localhost;dbname=dup;charset=utf8mb4','root','');
 
     $resultado = $pdo ->query("SELECT * FROM usuarios WHERE id='$id'");
 

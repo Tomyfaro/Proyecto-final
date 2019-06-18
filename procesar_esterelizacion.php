@@ -11,7 +11,7 @@
     $edad =$_POST["edad"];
     $sexo =$_POST["sexo"];
 
-    $pdo = new PDO('mysql:host=localhost;dbname=dameunapata;charset=utf8mb4','root','');    
+    $pdo = new PDO('mysql:host=localhost;dbname=dup;charset=utf8mb4','root','');    
     $sql = "INSERT INTO esterelizacion VALUES (null, '$nom', '$ape', '$dni', '$tel','$dir', '$tm', '$nom_m', '$raza', '$color', '$edad', '$sexo',sysdate())";
     $pdo->query($sql);
 

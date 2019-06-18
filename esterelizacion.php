@@ -1,5 +1,5 @@
 <?php
-    $pdo = new PDO("mysql:host=localhost;dbname=dameunapata;charset=utf8","root","");
+    $pdo = new PDO("mysql:host=localhost;dbname=dup;charset=utf8","root","");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styls/estilos.css">
 </head>
 <body>
+<?php include 'header.php';?>
     <h1>Solicitud de esterelizacion</h1>
     <form action="procesar_esterelizacion.php" method="post" class="form-register">
         <h2 class="form__titulo">Registrar Esterelizacion</h2>
@@ -43,5 +44,8 @@
         </div>
         
     </form>
+    
+    <?php include 'footer.php';?>
+    
 </body>
 </html>

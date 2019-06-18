@@ -67,7 +67,7 @@ background: #0b76a6;
 			<ul>
 				<li><a href="dup.php">¿Qué es DUP?</a></li>
 				<li><a href="conocer_mascota.php">Adopta</a></li>
-				<li><a href="esterlizar_mascota.php">Esterelización de mascotas</a></li>
+				<li><a href="esterelizacion.php">Esterelización de mascotas</a></li>
 				<li><a href="registrar_mascota.php">Reporta un animal</a></li>
 			</ul>
 		</nav>

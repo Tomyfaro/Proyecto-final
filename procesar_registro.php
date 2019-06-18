@@ -21,7 +21,7 @@ if($p1 != $p2){
     
 }
 else{
-    $pdo = new PDO('mysql:host=localhost;dbname=dameunapata;charset=utf8mb4','root','');
+    $pdo = new PDO('mysql:host=localhost;dbname=dup;charset=utf8mb4','root','');
     $sql = "INSERT INTO usuarios VALUES (null, '$nom', '$ape', '$dni','$fech', '$dir', '$tel', '$cor', '$p1',sysdate())";
     $pdo->query($sql);
 }

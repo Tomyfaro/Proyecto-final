@@ -6,7 +6,7 @@ $id = $_POST["id"];
 
 #Proceso
 
-$db = new PDO('mysql:host=localhost;dbname=dameunapata;charset=utf8mb4','root','');
+$db = new PDO('mysql:host=localhost;dbname=dup;charset=utf8mb4','root','');
 $stmt =  $db ->query("DELETE FROM esterelizacion WHERE id='$id'");
 
 

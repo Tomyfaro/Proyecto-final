@@ -7,7 +7,7 @@ $p = $_POST["password"];
 #Proceso
 
 $validacion = false;
-$pdo = new PDO('mysql:host=localhost;dbname=dameunapata;charset=utf8mb4','root','');
+$pdo = new PDO('mysql:host=localhost;dbname=dup;charset=utf8mb4','root','');
 $resultado= $pdo->query("SELECT * FROM usuarios WHERE correo='$cor' AND password='$p'");
 echo 
 $fila = $resultado->fetchAll();
@@ -28,7 +28,7 @@ if(count($fila)==1){
 #Salida
 
 if($validacion){
-    header("Location: usuarios.php");
+    header("Location: index.php");
 }
 else{
     header("Location: login.php?error=1");
