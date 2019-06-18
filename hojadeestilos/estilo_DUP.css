@@ -1,0 +1,47 @@
+body {
+    background-image: url("http://c1.peakpx.com/wallpaper/500/256/894/white-winter-background-dog-happy-wallpaper.jpg");
+    background-size: 100% ;
+
+}
+
+.banner{
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    border-style: double;
+    padding: 50px;
+    margin-top: 30px;
+    margin: left; 
+
+    
+    background-size: 100% 100%;
+    animation-name: banner;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation: banner 10s infinite;
+}
+.hola{
+    text-align: justify;
+    width: 40%;
+    color: black;
+}
+@keyframes banner {
+    0%, 30% {
+        background-image: url(https://www.usil.edu.pe/sites/default/files/36.jpg);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.1;
+    }
+    35%, 65%{
+        background-image: url(https://www.usil.edu.pe/sites/default/files/styles/imagen_interna_blog/public/usil-lamolina1.jpg?itok=6d48Lq5C);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0.1;
+    }
+    70%, 100%{
+        background-image: url(https://internacional.usil.edu.pe/sites/default/files/internacional-slider-acerca-de-usil.jpg);
+        opacity: 1;
+    }
+}

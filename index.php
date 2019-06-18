@@ -9,6 +9,9 @@
 </head>
 <body>
     <?php include 'header.php';?>
-
+    <div class="video">
+    
+    </div>
+    <?php include 'footer.php';?>
 </body> 
 </html>
