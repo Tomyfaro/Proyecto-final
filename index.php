@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="hojadeestilos/estilo_index.css">
+    <link rel="stylesheet" href="styls/estilo_index.css">
 </head>
 <body>
     <?php include 'header.php';?>
@@ -24,7 +24,7 @@
 </svg>
     <div class="video">
     
-    <iframe width="1200" height="600" src="https://www.youtube.com/embed/BXx7EMbfyug" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="1200" height="600" src="https://www.youtube.com/embed/BXx7EMbfyug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
     </div>
     
