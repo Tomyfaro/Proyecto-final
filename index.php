@@ -10,7 +10,7 @@
 <body>
     <?php include 'header.php';?>
     <div class="video">
-    
+    <iframe width="1200" height="630" src="https://www.youtube.com/embed/BXx7EMbfyug" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <?php include 'footer.php';?>
 </body> 

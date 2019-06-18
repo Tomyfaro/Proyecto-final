@@ -5,4 +5,6 @@ body {
 .video{
     padding: 100px;
     margin: 0px auto;
+    border-style: inherit;
+
 }
