@@ -68,7 +68,8 @@ background: #0b76a6;
 				<li><a href="dup.php">¿Qué es DUP?</a></li>
 				<li><a href="conocer_mascota.php">Adopta</a></li>
 				<li><a href="esterelizacion.php">Esterelización de mascotas</a></li>
-				<li><a href="registrar-nueva.php">Reporta un animal</a></li>
+				<li><a href="registrar-nueva.php">Registro parar dar en adopción</a></li>
+				<li><a href="reportar_mascota.php"></a>Reportar animal</li>
 			</ul>
 		</nav>
 </header>

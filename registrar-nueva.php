@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styls/styleR.css">
 </head>
 <body>
+<?php include 'header.php';?>
 <form action="registro-solicitudes.php" method="post" class="form-register" enctype="multipart/form-data">
         <h2 class="titulo-reg">Registrar una mascota</h2>
         <div class="registrar">

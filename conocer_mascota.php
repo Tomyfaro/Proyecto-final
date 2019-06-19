@@ -12,6 +12,7 @@ $sql = "SELECT * FROM informacion";
     <link rel="stylesheet" href="styls/estilo.css">
 </head>
 <body>
+<?php include 'header.php';?>
     <h1>Adopta un DUP</h1>
     <pre>¡Encuentra a tu compañero ideal!                                          <img class="rescatado" src="imagen1.PNG" alt="Rescatado" >  Rescatado  <img class="seguro" src="imagen2.PNG" alt="Seguro"> Seguro <img class="unico" src="imagen3.PNG
         " alt="Único">  Único <img class="noble" src="imagen4.PNG" alt="Noble"> Noble </pre>

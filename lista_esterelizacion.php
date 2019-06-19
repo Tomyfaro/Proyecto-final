@@ -1,5 +1,6 @@
 <?php
   $pdo = new PDO("mysql:host=localhost;dbname=dup;charset=utf8","root","");
+  $sql = "SELECT * FROM esterilizacion";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,6 +52,7 @@
             justify-content: space-between;
         }
     </style>
+    <?php include 'header.php';?>
 <h1>Lista de esterelizacion</h1>
 
 <table class="tabla">
@@ -67,7 +69,7 @@
     <th>Sexo</th>
     <th>Operaciones</th>
 </tr>
-<?php foreach ($pdo->query("SELECT * FROM esterelizacion") as $fila) { ?>
+    <?php foreach ($pdo->query($sql) as $fila) { ?>
     <tr>
         <td><?php echo $fila["nombres"] ?>  <?php echo $fila["apellidos"] ?></td>
         <td><?php echo $fila["dni"] ?></td>
