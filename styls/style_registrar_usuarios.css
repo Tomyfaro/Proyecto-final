@@ -7,8 +7,9 @@ body {
     background: #454d66;
 }
 h2 {
-    color: #b0f4e6;
+    color: black;
     text-align: center;
+    font-size: 30px;
 }
 .form_registrar_usuario {
     width: 95%;

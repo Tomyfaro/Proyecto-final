@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styls/style_registrar_usuarios.css">
 </head>
 <body>
+<?php include 'header3.php';?>
 <h2>Formulario de registro de usuarios</h2>
     <?php if(isset($_GET["error1"])) { ?>
         <p style= "color:red ;">Confirme correctamente su contraseña.</p>
@@ -33,5 +34,6 @@
     
         <button type="submit" class="btn-enviar">Registrarse</button>
     </form>
+    <?php include 'footer.php';?>
 </body>
 </html>

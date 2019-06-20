@@ -11,7 +11,7 @@ session_start();
     <link rel="stylesheet" href="styls/style_login.css">
 </head>
 <body>
-        <?php include 'cabecera.php' ?>
+        <?php include 'header3.php' ?>
 
     <?php if(isset($_GET["error"])){ ?>
         <p style="color:red">Datos Incorrectos</p>
@@ -30,6 +30,6 @@ session_start();
             <button type="submit" class="btn-enviar">Inicar sesión</button>
         </div>
     </form>
-    
+    <?php include 'footer.php';?>
 </body>
 </html>

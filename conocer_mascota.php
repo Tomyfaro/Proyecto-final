@@ -44,6 +44,6 @@ $sql = "SELECT * FROM informacion";
             <?php } ?>
     </table>
     <button><a href="borrar_fila.php?id=<?php echo $fila["id"] ?>"> BORRAR</a></button>
-
+    <?php include 'footer.php';?>
 </body>
 </html>
