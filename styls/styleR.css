@@ -2,11 +2,10 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url("https://wallpaperplay.com/walls/full/a/e/4/268865.jpg");
-    background-size: 100% ;
+    
     margin: 0;
     font-family: sans-serif;
-
+    background: #454d66;
 }
 h1 {
     color: #b0f4e6;
