@@ -13,7 +13,7 @@ session_start();
 
 <body>
 <div>
-<?php include 'header3.php' ?>
+<?php include 'header2.php' ?>
 </div>
     <?php if(isset($_GET["error"])){ ?>
         <p style="color:red">Datos Incorrectos</p>

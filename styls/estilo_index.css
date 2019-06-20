@@ -58,7 +58,7 @@ svg {
 }
 
 .text-copy:nth-child(4){
-	stroke:skyblue;
+	stroke:aqua;
 	animation-delay: -4s;
 }
 

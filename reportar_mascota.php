@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styls/styleR.css">
 </head>
 <body>
-<?php include 'header.php';?>
+<?php include 'header2.php';?>
     <form action="" method="POST" class="form-register">
         <h2 class="titulo-reg">Reportat un animal en mal estado</h2>
         <div class="contenedor-mascota">
