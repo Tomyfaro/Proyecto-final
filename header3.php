@@ -58,7 +58,7 @@ background: #0b76a6;
 
 <header id="main-header">
 		
-		<a id="logo-header" href="index.php">
+		<a id="logo-header" href="index1.php">
 			<span class="site-name">DUP</span>
 			<span class="site-desc">DAME UNA PATA</span>
 		</a> 
