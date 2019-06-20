@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styls/estilo_DUP.css">
 </head>
 <body>
-    <?php include 'header.php';?>
+    <?php include 'header2.php';?>
     <div class="banner">
     </div>
     

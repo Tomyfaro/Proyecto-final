@@ -10,9 +10,11 @@ session_start();
     <title>Document</title>
     <link rel="stylesheet" href="styls/style_login.css">
 </head>
-<body>
-        <?php include 'header3.php' ?>
 
+<body>
+<div>
+<?php include 'header3.php' ?>
+</div>
     <?php if(isset($_GET["error"])){ ?>
         <p style="color:red">Datos Incorrectos</p>
     <?php } ?>

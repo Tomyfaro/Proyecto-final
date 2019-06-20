@@ -16,16 +16,18 @@
             box-sizing: border-box;
             }
         body{
+            background-image: url("https://wallpaperplay.com/walls/full/a/e/4/268865.jpg");
+            background-size: 100% ;
             font-family: arial;
             font-size: 1.2em;
-            background: rgb(25, 27, 34);
+        
             }
         h1 {
-            color: #b0f4e6;
+            color: brown;
             text-align: center;
             }
         .titulo {
-            background: yellow;
+            background: black;
             color: #454d66;
         }
         nav{
@@ -43,7 +45,7 @@
         .tabla th, .tabla td{
             border: 1px solid #ccc;
             padding: 6px;
-            color: green;
+            color: white;
             }
         .btn {
             padding: 10px 30px;
@@ -53,7 +55,7 @@
         }
     </style>
     <?php include 'header.php';?>
-<h1>Lista de esterelizacion</h1>
+<h1>LISTA ESTERILIZACION</h1>
 
 <table class="tabla">
 <tr class="titulo">
@@ -69,7 +71,7 @@
     <th>Sexo</th>
     <th>Operaciones</th>
 </tr>
-    <?php foreach ($pdo->query($sql) as $fila) { ?>
+    <?php foreach ($pdo->query("SELECT * FROM esterilizacion") as $fila) { ?>
     <tr>
         <td><?php echo $fila["nombres"] ?>  <?php echo $fila["apellidos"] ?></td>
         <td><?php echo $fila["dni"] ?></td>
